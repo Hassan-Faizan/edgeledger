@@ -1,0 +1,62 @@
+#what .items {
+    display: block;
+    padding: 1rem;
+}
+
+#what .items .item {
+    display: flex;
+    text-align: left;
+}
+
+#what .item i {
+    align-self: center;
+    margin-right: 1.3rem;
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 587px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar h1 {
+        margin-bottom: 0.5rem;
+    }
+
+    #navbar ul {
+        padding: 1rem;
+    }
+
+
+    #showcase .showcase-content {
+        top: 60px;
+        padding: 0.25rem;
+    }
+
+    #showcase h1 {
+        text-align: center;
+    }
+
+    #who {
+        display: block;
+    }
+
+
+    #who .who-img {
+        display: none;
+    }
+
+    #clients img {
+        width: 80%;
+    }
+
+    #clients .last-div {
+        display: none;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+
+}
